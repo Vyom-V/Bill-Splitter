@@ -1,38 +1,196 @@
-.App {
-  text-align: center;
+html{
+  box-sizing: border-box;
+  margin: 0;padding: 0;
+  font-size: 100%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  box-sizing: inherit;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.body{
+  height: 100vh;
+  width: 100vw;
+  background-color:  hsl(185, 41%, 84%);
   display: flex;
   flex-direction: column;
+ justify-content: center;
+  align-items:center;
+  font-size: 1.5rem;
+  font-family: 'Space Mono', monospace;
+}
+.imglogo{
+  margin-bottom: 1.5rem;
+}
+.mainapp{
+  width: 50.25rem;
+  background-color:hsl(0, 0%, 100%);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.input{
+  display: inline-block;
+  padding: 0.625rem;
+  color:hsl(172, 67%, 45%);
+  width: 23.625rem;
+}
+.label{
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 18rem;
+}
+.input h3{
+  font-size: 0.625rem ;
+}
+.label span{
+  font-size: 0.625rem ;
+  color: red;
 }
 
-.App-link {
-  color: #61dafb;
+.amount{
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  height: 2.25rem;
+  width: 18rem;
+  margin: 0.25rem;
+  border-radius: 0.315rem;
+  background-color: hsl(189, 41%, 97%);
+}
+.amount img{
+  top:50%;
+  transform: translateY(-50%);
+  left:4%;
+  position: absolute;
+height: 1rem;
+}
+input{
+  width: 16rem;
+  font-family: 'Space Mono', monospace;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: right;
+  background-color: hsl(189, 41%, 97%) ;
+  border: none;
+}
+input:focus{
+border: none;
+appearance: none;
+outline:none;
+}
+.amount input::placeholder{
+  text-align: right;
+}
+input::placeholder{
+  text-align: center;
+}
+input:focus~.amount{
+border: 2px solid green;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tipcontainer{
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.tip{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col{
+  height: 2.25rem;
+  width: 5.3125rem;
+  margin: 0.625rem;
+  text-align: center;
+  border-radius: 0.3125rem;
+  background-color:  hsl(183, 100%, 15%);
+}
+.active{
+  background-color: hsl(172, 67%, 45%);
+  color:  hsl(183, 100%, 15%);
+  
+}
+.tip input{
+  padding: 0;
+  height: 2.25rem;
+  width: 5.3125rem;
+  margin: 0.625rem;
+  border-radius: 0.3125rem;
+}
+
+.output{
+  display: inline-block;
+  height: 19.375rem;
+  width: 19.375rem;
+  padding: 1.875rem;
+  margin: 1rem;
+  border-radius: 0.75rem ;
+  background-color: hsl(183, 100%, 15%);
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+}
+.text,.amtOP{
+  color: hsl(172, 67%, 45%);
+}
+.text h3{
+  font-size: 0.625rem ;
+  color: hsl(0, 0%, 100%);
+}
+.text p{
+  font-size: 0.625rem;
+}
+
+.amtOP{
+  text-align: right;
+  font-size: 1.625rem;
+  font-weight: 700;
+  align-self: center;
+  overflow: hidden;
+}
+.btn{
+  cursor: pointer;
+  margin-top: 3.5rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+.btnON{
+  height: 2.25rem;
+  width: 15.625rem;
+  margin-top: 0.7rem;
+  background-color: hsl(172, 67%, 45%);
+  border-radius: 0.3125rem;
+  align-self: center;
+  text-align: center;
+  padding: 0.4rem;
+
+}
+
+@media (max-width:600px)
+{
+.body{
+ justify-content:flex-start;
+}
+
+.imglogo{
+  margin: 2.5rem;
+}
+.mainapp{
+  width: 23.435rem;
+  border-radius: 2rem;
+  flex-direction: column;
+  align-items: center;
+}
+.input{
+  padding: 1.3rem;
+}
+.output{
+  height: 17.375rem;
+}
+.btn{
+  margin-top: 3rem;
+}
 }
