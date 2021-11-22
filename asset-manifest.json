@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Bill-Splitter/static/css/main.4ef1b40a.chunk.css",
+    "main.js": "/Bill-Splitter/static/js/main.68753e51.chunk.js",
+    "main.js.map": "/Bill-Splitter/static/js/main.68753e51.chunk.js.map",
+    "runtime-main.js": "/Bill-Splitter/static/js/runtime-main.f77d7153.js",
+    "runtime-main.js.map": "/Bill-Splitter/static/js/runtime-main.f77d7153.js.map",
+    "static/js/2.06eebdd9.chunk.js": "/Bill-Splitter/static/js/2.06eebdd9.chunk.js",
+    "static/js/2.06eebdd9.chunk.js.map": "/Bill-Splitter/static/js/2.06eebdd9.chunk.js.map",
+    "static/js/3.9a9b5bee.chunk.js": "/Bill-Splitter/static/js/3.9a9b5bee.chunk.js",
+    "static/js/3.9a9b5bee.chunk.js.map": "/Bill-Splitter/static/js/3.9a9b5bee.chunk.js.map",
+    "index.html": "/Bill-Splitter/index.html",
+    "static/css/main.4ef1b40a.chunk.css.map": "/Bill-Splitter/static/css/main.4ef1b40a.chunk.css.map",
+    "static/js/2.06eebdd9.chunk.js.LICENSE.txt": "/Bill-Splitter/static/js/2.06eebdd9.chunk.js.LICENSE.txt",
+    "static/media/icon-dollar.9f9be353.svg": "/Bill-Splitter/static/media/icon-dollar.9f9be353.svg",
+    "static/media/icon-person.65bfd204.svg": "/Bill-Splitter/static/media/icon-person.65bfd204.svg",
+    "static/media/logo.3cc0528b.svg": "/Bill-Splitter/static/media/logo.3cc0528b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f77d7153.js",
+    "static/js/2.06eebdd9.chunk.js",
+    "static/css/main.4ef1b40a.chunk.css",
+    "static/js/main.68753e51.chunk.js"
+  ]
+}
